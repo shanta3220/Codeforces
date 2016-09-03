@@ -1,1 +1,1 @@
-#  Solving Codeforces problems and saving here to help you including myself.
+#  Solving Codeforces problems and saving the accepted solutions here.
