@@ -3,13 +3,12 @@
 using namespace std;
 
 int main() {
-	int a, b, c, d, minn, minn2;
+	int a, b, c, d, min1;
 	cin >>  a >> b >> c >> d;
-	minn = min(a,c); 
-	minn = min(minn,d);
-	a = a - minn;
-	minn2 = min(a,b);
-	cout << (minn * 256) + (minn2 * 32) <<"\n";
+	min1 = min(min(a,c),d); 
+    	a = a - min1;
+	
+	cout << (min1 * 256) + (min(a,b) * 32) << "\n";
 	
 	return 0;
 }
